@@ -1,0 +1,24 @@
+{
+  "name": "ovhstockbot",
+  "version": "1.0.0",
+  "description": "OvhStockBot",
+  "main": "index.js",
+  "repository": "git@github.com:MatthieuLeboeuf/OvhStockBot.git",
+  "author": "Matthieu Leboeuf <contact@matthieul.dev>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
